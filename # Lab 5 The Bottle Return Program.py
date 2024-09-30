@@ -13,15 +13,12 @@ keepGoing = 'y'
 while keepGoing == 'y':
 	  	# Step 3: Code to set value of variables
     totalBottles = 0
-    todayBottles = 0
-    counter = 0
       	# code to set value of variable totalBottles
     for counter in range(1, 8):
         todayBottles = int(input("Enter number of bottles returned for day #" + str(counter) + ': '))
         totalBottles = totalBottles + todayBottles
         counter = counter + 1
     else:
-        keepGoing == 'n'
         break
       	# code to set value of variable totalPayout
 PayoutPerBottle = 0.10
